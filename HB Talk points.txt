@@ -1,0 +1,71 @@
+HB Talk
+
+Talking points: 
+Slide 1: 
+	Intro: 
+	This talk is gives you a peek into concepts of big data, data warehousing and operations on data to make better business decisions 
+
+	My background is in data warehousing and visualization and am excited to share somethings with you 
+
+Slide 2: 
+	<I am freaking out but excited .gif>
+
+Slide 3: 
+	What is big data. 
+	Companies collect tons and tons of data in their day to day operations 
+	(google search, youtube videos, tweets, facebook pictures, amazon, etc). Because of the size of data, traditional databases do not work and scale well.
+	Big data as a concept started because of these Internet and web scale data stores. Companies now have data in order of Petabytes!! 
+	Explain GB, Terabyte, Petabyte 
+		http://myrepono.com/faq/4
+		https://nelsonbj.files.wordpress.com/2011/06/ic_forum_time.jpg?w=584
+		https://i1.wp.com/infographiclist.files.wordpress.com/2011/09/world-of-data.jpeg
+		https://media.mercola.com/imageserver/public/2009/July/peta8.gif
+
+Slide 4: 
+	Because companies have so much data, they have built systems around this to mine it and help make data driven decisions. 
+	We need a way to store this much data, cleanse this data and finally query and build reports on this data. 
+	This is what a typical data analytics and processing pipeline looks like 
+		Image about 3 steps: 
+			Storage of data 
+			Processing, cleansing, aggregation of data 
+			Visualization, reporting on that data 
+	
+Slide 5: 
+	Benefits of big data processing 
+	e.g: 
+		Old data can be used to understand past patterns 
+		Lots of data means companies have a large sample size to work off
+		Future trends can be guessed by applying algorithms on data 
+		Shopping and user behaviors can help targetted marketing 
+		Better medical research 
+
+
+Slide 4: 
+	Today we are going to look into a hypothetical example of how Amazon will make smart business decisions based on shopping data collected 
+	We are going to check into umbrellas bought on Amazon and see if there is a relation with the weather changes. 
+
+
+Slide 5: 
+	How Amazon will collect shopping data - based on transactions 
+	What types of data? 
+	How Amazon will now collect data from external source: weather.com 
+	
+Slide 6: 
+	How Amazon will reject unwanted data 
+	How will Amazon aggregate and combine data from weather.com based on zip code and time of shopping 
+
+Slide 7: 
+	How we can now run smart algorithms (data science, machine learning) on this data to figure out answers: 
+		What season do people buy umbrellas 
+		How long do people wait after first rain to buy umbrellas 
+		How long do people wait before peak rainfall to buy 
+		What else do same people buy in that season 
+		What other zip codes have similar weather patterns 
+
+
+
+	Datawarehousing is an idea to manage and make intelligent use of huge data. 
+	Lots of new techniques are needed to manage this: 
+		new database schema: star, snowflake schema 
+		new database technology: NoSQL, Cassandra, MongoDB 
+
